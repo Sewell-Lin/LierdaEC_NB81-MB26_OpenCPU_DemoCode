@@ -1,0 +1,16 @@
+{
+	"skipfolders": [
+		"./../tools",
+		"./../protocol/tool",
+		"./../firmware/verification",
+		"./misc",
+		"./tools",
+		"./verify",
+		"./../trunk_a0.si4project",
+		"./../plat/project/ec617_0h00",
+		"./../plat/driver/board/ec617_0h00",
+		"./../plat/driver/chip/ec617",
+		"./../plat/driver/hal/ec617",
+		"./../plat/device/eigencomm/board/ec617_0h00"
+	]
+}

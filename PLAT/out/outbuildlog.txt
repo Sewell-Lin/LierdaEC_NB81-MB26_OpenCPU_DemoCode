@@ -1,0 +1,128 @@
+(cd project/ec616_0h00/apps/lierdaEC_lib/ARMCC && make V=0 -f Makefile all)
+make[1]: Entering directory '/cygdrive/g/Hello_World/lierdaEC_lib/PLAT/project/ec616_0h00/apps/lierdaEC_lib/ARMCC'
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/app.c
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/bsp_custom.c
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/demo_app.c
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_ADC.c
+"../inc/lierdaEC_SysGlobalParameters.h", line 15: Warning:  #1-D: last line of file ends without a newline
+  #endif /* _LIERDAEC_SYS_GLOBALPARAMETERS_H */
+                                               ^
+"../../../../../../PLAT/middleware/thirdparty/dm/include/autoreg_common.h", line 21: Warning:  #47-D: incompatible redefinition of macro "IMSI_LEN"  (declared at line 49 of "../inc/demo_app.h")
+  #define IMSI_LEN           16
+          ^
+"../inc/lierdaEC_SysGlobalParameters.h", line 15: Warning:  #1-D: last line of file ends without a newline
+  #endif /* _LIERDAEC_SYS_GLOBALPARAMETERS_H */
+                                               ^
+../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/app.c: 2 warnings, 0 errors
+../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/demo_app.c: 1 warning, 0 errors
+"../inc/lierdaEC_SysGlobalParameters.h", line 15: Warning:  #1-D: last line of file ends without a newline
+  #endif /* _LIERDAEC_SYS_GLOBALPARAMETERS_H */
+                                               ^
+"../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_ADC.c", line 71: Warning:  #550-D: variable "ADC_DEND"  was set but never used
+          CT_Send_DATA ADC_DEND;
+                       ^
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_AT.c
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_DATA.c
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_GPIO.c
+../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_ADC.c: 2 warnings, 0 errors
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_I2C.c
+"../inc/lierdaEC_SysGlobalParameters.h", line 15: Warning:  #1-D: last line of file ends without a newline
+  #endif /* _LIERDAEC_SYS_GLOBALPARAMETERS_H */
+                                               ^
+"../inc/lierdaEC_SysGlobalParameters.h", line 15: Warning:  #1-D: last line of file ends without a newline
+  #endif /* _LIERDAEC_SYS_GLOBALPARAMETERS_H */
+                                               ^
+"../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_DATA.c", line 39: Warning:  #167-D: argument of type "int8_t *" is incompatible with parameter of type "char *restrict"
+              sprintf(UplinkBuffer, "ADC:%d,Light:%d", I2C_SEND_Test.ADCDATA_To_IoTPlatform, I2C_SEND_Test.I2CDATA_To_IoTPlatform);
+                      ^
+"../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_DATA.c", line 42: Warning:  #167-D: argument of type "int8_t *" is incompatible with parameter of type "uint8_t *"
+              lierdaEC_ctiot_data_send(UplinkBuffer, sizeof(UplinkBuffer), SENDMODE_CON_REL, 0, 1);
+                                       ^
+"../inc/lierdaEC_SysGlobalParameters.h", line 15: Warning:  #1-D: last line of file ends without a newline
+  #endif /* _LIERDAEC_SYS_GLOBALPARAMETERS_H */
+                                               ^
+"../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_GPIO.c", line 16: Warning:  #1295-D: Deprecated declaration GPIO_ISR_Func - give arg types
+  void GPIO_ISR_Func();
+       ^
+../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_AT.c: 1 warning, 0 errors
+../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_DATA.c: 3 warnings, 0 errors
+../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_GPIO.c: 2 warnings, 0 errors
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_SPI.c
+"../inc/lierdaEC_SysGlobalParameters.h", line 15: Warning:  #1-D: last line of file ends without a newline
+  #endif /* _LIERDAEC_SYS_GLOBALPARAMETERS_H */
+                                               ^
+"../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_I2C.c", line 58: Warning:  #550-D: variable "I2C_DEND"  was set but never used
+              CT_Send_DATA I2C_DEND;
+                           ^
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_TCPIP.c
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_Timer_PWM.c
+../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_I2C.c: 2 warnings, 0 errors
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_USART.c
+"../inc/lierdaEC_SysGlobalParameters.h", line 15: Warning:  #1-D: last line of file ends without a newline
+  #endif /* _LIERDAEC_SYS_GLOBALPARAMETERS_H */
+                                               ^
+"../inc/lierdaEC_SysGlobalParameters.h", line 15: Warning:  #1-D: last line of file ends without a newline
+  #endif /* _LIERDAEC_SYS_GLOBALPARAMETERS_H */
+                                               ^
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_ct_task.c
+../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_SPI.c: 1 warning, 0 errors
+../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_TCPIP.c: 1 warning, 0 errors
+CC ../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_ct_api.c
+"../inc/lierdaEC_SysGlobalParameters.h", line 15: Warning:  #1-D: last line of file ends without a newline
+  #endif /* _LIERDAEC_SYS_GLOBALPARAMETERS_H */
+                                               ^
+CC ../../../../../../PLAT/os/freertos/src/timers.c
+"../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_ct_task.c", line 130: Warning:  #223-D: function "HAL_UART_RecvFlowControl" declared implicitly
+          HAL_UART_RecvFlowControl(false);
+          ^
+../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_DEMO_USART.c: 1 warning, 0 errors
+CC ../../../../../../PLAT/os/freertos/src/tasks.c
+../../../../../../PLAT/project/ec616_0h00/apps/lierdaEC_lib/src/lierdaEC_ct_task.c: 1 warning, 0 errors
+CC ../../../../../../PLAT/os/freertos/src/event_groups.c
+CC ../../../../../../PLAT/os/freertos/src/list.c
+CC ../../../../../../PLAT/os/freertos/src/queue.c
+CC ../../../../../../PLAT/os/freertos/src/heap_4.c
+CC ../../../../../../PLAT/os/freertos/CMSIS/src/os_systick.c
+CC ../../../../../../PLAT/os/freertos/CMSIS/src/os_callback_hook.c
+CC ../../../../../../PLAT/os/freertos/CMSIS/src/mm_debug.c
+CC ../../../../../../PLAT/os/freertos/CMSIS/src/cmsis_os2.c
+CC ../../../../../../PLAT/os/freertos/portable/keil/port.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/utils.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/data.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/transaction.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/block1.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/json.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/uri.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/bootstrap.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/liblwm2m.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/discover.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/list.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/registration.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/observe.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/objects.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/tlv.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/management.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/core/packet.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/client/test_object.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/client/object_connectivity_moni.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/client/object_connectivity_stat.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/client/object_firmware.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/client/object_access_control.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/client/object_server.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/client/system_api.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/client/object_security.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/client/lwm2mclient.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/client/object_location.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/client/object_device.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/shared/dtlsconnection.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/shared/commandline.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/shared/memtrace.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/shared/connection.c
+CC ../../../../../../PLAT/middleware/thirdparty/wakaama/examples/shared/platform.c
+AR ../../../../../../PLAT/out/ec616_0h00/lierdaEC_lib/lib/libfreertos.lib
+Creating archive '../../../../../../PLAT/out/ec616_0h00/lierdaEC_lib/lib/libfreertos.lib'
+AR ../../../../../../PLAT/out/ec616_0h00/lierdaEC_lib/lib/liblwm2m.lib
+Creating archive '../../../../../../PLAT/out/ec616_0h00/lierdaEC_lib/lib/liblwm2m.lib'
+LINK ../../../../../../PLAT/out/ec616_0h00/lierdaEC_lib/lierdaEC_lib_flash.axf
+Program Size: Code=1704132 RO-data=160416 RW-data=26256 ZI-data=147464  
+make[1]: Leaving directory '/cygdrive/g/Hello_World/lierdaEC_lib/PLAT/project/ec616_0h00/apps/lierdaEC_lib/ARMCC'

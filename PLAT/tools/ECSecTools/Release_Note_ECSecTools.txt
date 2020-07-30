@@ -1,0 +1,6 @@
+程序名称：ECSecTools
+程序版本：ECSecTools v1.0.1
+v1.0.1
+20200309
+1.修改了genkey命令执行错误
+
